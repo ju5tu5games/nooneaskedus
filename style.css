@@ -1,6 +1,5 @@
 body {
-    background: url('windows95-bg.png') no-repeat center center fixed;
-    background-size: cover;
+    background-color: #008080; /* Windows 95 default teal */
     font-family: 'Courier New', monospace;
     color: black;
 }
