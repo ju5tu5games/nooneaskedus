@@ -16,22 +16,26 @@
 
     <div id="notepad-window" class="window hidden">
         <div class="title-bar">
-            <span>Notepad - Yahoo! Shame Revival</span>
+            <span>Notepad - Yahoo! With You for Life</span>
             <div class="controls">
                 <button onclick="closeProject()">X</button>
             </div>
         </div>
         <div class="content">
-            <h2>Yahoo! Should Force the Entire Internet to Relive Their First Email</h2>
-            <p><strong>The Problem:</strong> Yahoo is still a thing, but no one talks about it unless they’re trying to recover a forgotten password.</p>
-            <p><strong>The Solution:</strong> Make Yahoo the official home of nostalgic email shame.</p>
-            <p><strong>How It Works:</strong></p>
-            <ul>
-                <li>#MyFirstYahoo Confessionals - Celebs & internet nobodies share their worst first emails.</li>
-                <li>Yahoo Burner Mode - Because no one should have to say ‘XxNarutoFan420’ in a mortgage meeting.</li>
-                <li>The Yahoo Dinner Party Ad - Famous people introducing themselves with their old cringe email names.</li>
-            </ul>
-            <p><strong>Why It Wins:</strong> Nostalgia + Cringe = Viral.</p>
+            <div id="slide-container">
+                <div class="slide active"><img src="slide1.webp" alt="Slide 1"></div>
+                <div class="slide"><img src="slide2.webp" alt="Slide 2"></div>
+                <div class="slide"><img src="slide3.webp" alt="Slide 3"></div>
+                <div class="slide"><img src="slide4.webp" alt="Slide 4"></div>
+                <div class="slide"><img src="slide5.webp" alt="Slide 5"></div>
+                <div class="slide"><img src="slide6.webp" alt="Slide 6"></div>
+                <div class="slide"><img src="slide7.webp" alt="Slide 7"></div>
+                <div class="slide"><img src="slide8.webp" alt="Slide 8"></div>
+            </div>
+            <div class="nav-buttons">
+                <button onclick="prevSlide()">← Back</button>
+                <button onclick="nextSlide()">Next →</button>
+            </div>
         </div>
     </div>
 

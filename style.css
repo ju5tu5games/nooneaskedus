@@ -24,7 +24,7 @@ body {
     position: absolute;
     top: 50px;
     left: 50px;
-    width: 400px;
+    width: 600px;
     border: 2px solid black;
     background: white;
     box-shadow: 5px 5px 0px #666;
@@ -48,8 +48,21 @@ body {
 
 .content {
     padding: 10px;
+    text-align: center;
 }
 
-.hidden {
+.slide img {
+    width: 100%;
+    height: auto;
     display: none;
+}
+
+.slide.active img {
+    display: block;
+}
+
+.nav-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
 }
