@@ -1,6 +1,6 @@
 body {
     background-color: #008080; /* Windows 95 default teal */
-    font-family: 'Courier New', monospace;
+    font-family: 'MS Sans Serif', sans-serif;
     color: black;
 }
 
@@ -28,6 +28,12 @@ body {
     border: 2px solid black;
     background: white;
     box-shadow: 5px 5px 0px #666;
+    padding: 10px;
+    display: none;
+}
+
+.window.hidden {
+    display: none;
 }
 
 .title-bar {
@@ -37,6 +43,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-size: 12px;
 }
 
 .controls button {
@@ -54,11 +61,16 @@ body {
 .slide img {
     width: 100%;
     height: auto;
-    display: none;
+    display: block;
 }
 
-.slide.active img {
-    display: block;
+.slide-text {
+    font-size: 12px;
+    text-align: left;
+    background-color: #C0C0C0; /* Classic Windows 95 background color */
+    padding: 5px;
+    margin-top: 5px;
+    border: 1px solid black;
 }
 
 .nav-buttons {

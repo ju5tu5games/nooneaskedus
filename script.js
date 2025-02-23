@@ -1,13 +1,14 @@
 let currentSlide = 0;
 const slides = document.querySelectorAll('.slide');
+const notepadWindow = document.getElementById('notepad-window');
 
 function openProject() {
-    document.getElementById('notepad-window').classList.remove('hidden');
+    notepadWindow.classList.remove('hidden');
     showSlide(0);
 }
 
 function closeProject() {
-    document.getElementById('notepad-window').classList.add('hidden');
+    notepadWindow.classList.add('hidden');
 }
 
 function showSlide(index) {
