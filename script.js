@@ -12,8 +12,7 @@ function closeProject() {
 
 function showSlide(index) {
     slides.forEach((slide, i) => {
-        slide.classList.remove('active');
-        if (i === index) slide.classList.add('active');
+        slide.style.display = (i === index) ? 'block' : 'none';
     });
 }
 
